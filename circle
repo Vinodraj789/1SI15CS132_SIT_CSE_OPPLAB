@@ -1,0 +1,129 @@
+
+Conversation opened. 3 messages. All messages read.
+
+Skip to content
+Using Gmail with screen readers
+Search
+
+
+in:sent 
+
+Gmail
+COMPOSE
+Labels
+Inbox
+Starred
+Sent Mail
+Drafts
+More 
+Hangouts
+
+ 
+ 
+Move to Inbox More 
+1 of 4  
+ 
+Expand all Print all In new window
+Fwd: 
+Inbox
+x 
+
+Shashank Lr		AttachmentsFeb 21
+---------- Forwarded message --------- From: Shashank Lr <shank9714@gmail.com...
+
+Vinod Kumar <vinodrajw321@gmail.com>
+AttachmentsFeb 25 (11 days ago)
+
+to 3gyashu, vinyvinays78 
+
+35 Attachments 
+ 
+
+Vinod Kumar <vinodrajw321@gmail.com>
+Mar 4 (4 days ago)
+
+to Yashavantha 
+nm,nulkjkknmbjkh
+
+	
+Click here to Reply or Forward
+0.01 GB (0%) of 15 GB used
+Manage
+Terms - Privacy
+Last account activity: 2 days ago
+Details
+People (3)
+Shashank Lr's profile photo
+Shashank Lr
+shank9714@gmail.com
+
+Show details
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+class CircleType
+{
+    private:
+        int iRadius;
+        double dCirc, dArea;
+        
+    public:
+        void fnSetRadius(int);
+        void fnShowDetails();
+        void fnCalcCirc();
+        void fnCalcArea();
+};
+
+CircleType :: CircleType()
+{
+
+}
+
+void CircleType :: fnSetRadius(int iR)
+{
+    iRadius = iR;
+}
+    
+void CircleType :: fnShowDetails()
+{
+    cout << "\nRadius : " << iRadius;
+    cout << "\nCircumference : " << dCirc;
+    cout << "\nArea : " << dArea;
+}
+
+void CircleType :: fnCalcCirc()
+{
+    dCirc = 2 * M_PI * iRadius;
+}
+
+void CircleType :: fnCalcArea()
+{
+    dArea = M_PI * iRadius * iRadius;
+}
+
+int main(void)
+{
+    CircleType c1, c2;
+    
+    c1.fnSetRadius(7);
+    
+    c1.fnCalcCirc();
+    
+    c1.fnCalcArea();
+    
+    c1.fnShowDetails();
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+01circle.cpp
+Open with
+Displaying 01circle.cpp.
